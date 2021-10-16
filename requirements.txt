@@ -5,3 +5,4 @@ chardet
 pandas
 sklearn
 xgboost
+jupyterthemes
