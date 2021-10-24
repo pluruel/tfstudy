@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 RUN pip uninstall jedi -y
-RUN jt -t chesterish
+RUN jt -t onedork -T -N
