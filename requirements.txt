@@ -1,8 +1,5 @@
 scipy
-keras<=2.6
-tensorflow-datasets
 chardet
 pandas
 sklearn
 xgboost
-jupyterthemes

@@ -1,7 +1,4 @@
-from tensorflow/tensorflow:2.6.0-gpu-jupyter
+from tensorflow/tensorflow:latest-gpu-jupyter 
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-
-RUN pip uninstall jedi -y
-RUN jt -t onedork -T -N
